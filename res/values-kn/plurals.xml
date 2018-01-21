@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN ನಮೂದಿಸಿ, ನಿಮಗೆ %d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ, ನಂತರ ನೀವು ನಿಮ್ಮ ಸಾಧನವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ಕ್ಯಾರಿಯರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಬೇಕು.</item>
+        <item quantity="one">SIM PIN ನಮೂದಿಸಿ, ನಿಮಗೆ %d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ, ನಂತರ ನೀವು ನಿಮ್ಮ ಸಾಧನವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ಕ್ಯಾರಿಯರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಬೇಕು.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM ಈಗ ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ. ಮುಂದುವರಿಯಲು PUK ಕೋಡ್ ನಮೂದಿಸಿ. ನಿಮಗೆ %d ಪ್ರಯತ್ನಗಳು ಉಳಿದಿವೆ. ನಂತರ SIM ಶಾಶ್ವತವಾಗಿ ಬಳಸಲು ಸಾಧ್ಯವಿಲ್ಲದಂತಾಗುತ್ತದೆ. ವಿವರಗಳಿಗಾಗಿ ಕ್ಯಾರಿಯರ್ ಸಂಪರ್ಕಿಸಿ.</item>
+        <item quantity="one">SIM ಈಗ ನಿಷ್ಕ್ರಿಯವಾಗಿದೆ. ಮುಂದುವರಿಯಲು PUK ಕೋಡ್ ನಮೂದಿಸಿ. ನಿಮಗೆ %d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ. ನಂತರ SIM ಶಾಶ್ವತವಾಗಿ ಬಳಸಲು ಸಾಧ್ಯವಿಲ್ಲದಂತಾಗುತ್ತದೆ. ವಿವರಗಳಿಗಾಗಿ ಕ್ಯಾರಿಯರ್ ಸಂಪರ್ಕಿಸಿ.</item>
+    </plurals>
+</resources>

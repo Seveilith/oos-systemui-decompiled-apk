@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.clock.DigitalClockHorizontal android:gravity="bottom|center" android:orientation="vertical" android:id="@id/clock_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <com.android.keyguard.clock.OPTextClock android:layout_gravity="center_horizontal" android:id="@id/text_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/op_bottom_text_spacing_digital" android:singleLine="true" android:format12Hour="@string/keyguard_widget_12_hours_format" android:format24Hour="@string/keyguard_widget_24_hours_format" style="@style/widget_1_sans_serif_thin" />
+    <include android:layout_gravity="center_horizontal" android:id="@id/area_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/keyguard_status_area" />
+    <TextView android:ellipsize="marquee" android:id="@id/owner_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_date_owner_info_margin" android:singleLine="true" android:letterSpacing="0.05" style="@style/widget_1_roboto_regular" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/clock_widget_horizontal_margin_bottom" />
+</com.android.keyguard.clock.DigitalClockHorizontal>

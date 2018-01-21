@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_ui_tuner"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sysui="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen android:title="@string/volume_and_do_not_disturb" android:key="volume_and_do_not_disturb">
+        <com.android.systemui.tuner.TunerSwitch android:title="@string/tuner_full_zen_title" android:key="sysui_show_full_zen" sysui:metricsAction="314" />
+        <com.android.systemui.tuner.TunerSwitch android:title="@string/volume_dnd_silent" android:key="sysui_volume_down_silent,sysui_volume_up_silent" sysui:defValue="true" sysui:metricsAction="315" />
+    </PreferenceScreen>
+    <Preference android:title="@string/other" android:key="other" android:fragment="com.android.systemui.tuner.OtherPrefs" />
+    <Preference android:selectable="false" android:summary="@string/tuner_persistent_warning" />
+</PreferenceScreen>

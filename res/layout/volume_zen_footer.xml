@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.volume.ZenFooter android:orientation="vertical" android:id="@id/volume_zen_footer" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/volume_row_padding_start" android:paddingEnd="@dimen/volume_row_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/volume_zen_icon" android:layout_width="@dimen/volume_button_size" android:layout_height="@dimen/volume_button_size" android:scaleType="center" android:layout_marginEnd="@dimen/volume_zen_footer_padding" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.Volume.ZenSummary" android:id="@id/volume_zen_summary_line_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" />
+        </LinearLayout>
+        <ImageView android:id="@id/volume_zen_settings" android:layout_width="@dimen/volume_button_size" android:layout_height="@dimen/volume_button_size" android:src="@drawable/ic_volume_footer_settings" android:scaleType="center" android:tint="@color/qs_tile_icon" android:layout_marginStart="@dimen/volume_zen_footer_padding" />
+    </LinearLayout>
+</com.android.systemui.volume.ZenFooter>

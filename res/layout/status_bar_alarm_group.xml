@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/date_time_alarm_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/date_time_group" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/split_clock_view" />
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:gravity="center" android:id="@id/alarm_status_collapsed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_access_alarms_small" android:paddingStart="6.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/date_time_group" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.policy.DateView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Clock" android:textSize="@dimen/qs_time_collapsed_size" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" systemui:datePattern="@string/abbrev_wday_month_day_no_year_alarm" />
+        <ImageView android:id="@id/alarm_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/ic_access_alarms_small" />
+    </LinearLayout>
+    <com.android.systemui.statusbar.AlphaOptimizedButton android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Date" android:textColor="#64ffffff" android:gravity="top" android:id="@id/alarm_status" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginTop="1.0dip" android:drawablePadding="8.0dip" android:drawableStart="@drawable/ic_access_alarms_small" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.clock.DigitalClockVertical android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/clock_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/clock_widget_2_maringLeft"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:id="@id/text_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/clock_widget_2_text_hour_margin_bottom" style="@style/widget_2_sans_serif_light" />
+        <ImageView android:id="@id/widget_divider" android:background="@color/grey_a100" android:layout_width="@dimen/clock_widget_2_divider_width" android:layout_height="@dimen/clock_widget_2_divider_height" android:layout_marginBottom="@dimen/clock_widget_2_divider_margin_bottom" android:layout_below="@id/text_hour" />
+        <TextView android:gravity="center" android:id="@id/text_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/clock_widget_2_text_min_margin_bottom" style="@style/widget_2_sans_serif_thin" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/keyguard_status_area" />
+    <TextView android:ellipsize="marquee" android:id="@id/owner_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_date_owner_info_margin" android:singleLine="true" android:letterSpacing="0.05" style="@style/widget_1_roboto_regular" />
+</com.android.keyguard.clock.DigitalClockVertical>
